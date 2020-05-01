@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright-text {
+  color: grey
+}
+
+button#submitBtn {
+  margin-right: 0;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+h2 {
+  margin-top: 4rem;
+}

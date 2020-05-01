@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="the web version of the points game Never have I ever">
+  <meta name="author" content="Angie Yu">
+
+  <title>Never Have I Ever</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- fontawesome -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- style.css -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="page-container">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Never Have I Ever</a>
+
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Setting</a>
+            <a class="dropdown-item" href="#">Log Out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" id="content-container">
+      <h2>Share three true thing about you and mixed it with lies.</h2>
+      <p>need more copy writing to explain clearly how this works</p>
+      <div class="row mx-auto px-2">
+        <div class="col">
+          <form>
+            <div class="form-group row">
+              <label for="inputTruth">Enter a truth: </label>
+              <input class="form-control" id="inputTruth" aria-describedby="input truth" rows="2"
+                placeholder="I've never">
+              <small id="truthHelp" class="form-text text-muted">The sequence will be randomized, don't worry.</small>
+            </div>
+
+            <div class="form-group row mt-4">
+              <label for="InputLie1">Enter two lies: </label>
+              <input class="form-control" id="inputLie1" aria-describedby="input lie" rows="2"
+                placeholder="I've never">
+            </div>
+
+            <div class="form-group row">
+              <input class="form-control" id="inputLie2" aria-describedby="input lie" rows="2"
+                placeholder="I've never">
+            </div>
+            <div class="text-right">
+              <button type="submit" id="submitBtn" class="btn btn-primary my-3 mx-auto">Next Round</button>
+            </div>
+
+          </form>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <!-- Copyright Section -->
+    <section class="copyright py-2 bg-light text-center">
+      <div class="container">
+        <small class="copyright-text">Copyright &copy; Angie Yu 2020</small>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.slim.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/fontawesome-free/js/all.js"></script>
+
+</html>
